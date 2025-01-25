@@ -1,0 +1,38 @@
+# AI-Powered Data Insights and Visualizations
+
+This Streamlit app leverages **Google Generative AI** to convert natural language queries into SQL queries, enabling users to generate actionable insights and visualizations from their uploaded data. Users can upload datasets, ask analysis questions, clean and consolidate the data, and visualize it using a variety of interactive chart types.
+
+## Features
+
+1. **Data Upload and Display**
+   - Supports CSV, XLSX, and XLS file uploads.
+   - Displays the uploaded data in a user-friendly table format.
+
+2. **Natural Language Query Processing**
+   - Translates user prompts into SQL queries using Google Generative AI.
+   - Executes the generated SQL queries on the uploaded dataset stored in an SQLite database.
+   - Consolidates the results into a unified table based on user-defined queries.
+
+3. **Data Cleaning and Consolidation**
+   - Drops columns with missing values.
+   - Converts categorical columns with binary values into numerical representations.
+   - Removes duplicate rows and consolidates identical rows by summing numeric values.
+
+4. **Interactive Data Visualization**
+   - Generates charts based on user-selected options:
+     - Bar Chart
+     - Line Chart
+     - Pie Chart
+     - Scatter Plot
+     - Box Plot
+     - Correlation Heatmap
+     - Histogram
+     - Bubble Chart
+     - Sunburst Chart
+     - Treemap
+     - Funnel Chart
+     - Density Heatmap
+     - Violin Plot
+     - Strip Plot
+     - Facet Grid
+   - Charts are interactive and visually appealing, powered by **Plotly** and **Seaborn**.
